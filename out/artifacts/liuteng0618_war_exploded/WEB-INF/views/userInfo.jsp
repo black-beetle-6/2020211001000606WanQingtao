@@ -1,4 +1,4 @@
-<%@ page import="com.WanQingtao.model.User" %><%--
+<%@ page import="com.liuteng.model.User" %><%--
   Created by IntelliJ IDEA.
   User: Lenovo
   Date: 4/5/2021

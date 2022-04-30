@@ -1,4 +1,4 @@
-<%@ page import="com.WanQingtao.model.User" %><%--
+<%@ page import="com.liuteng.model.User" %><%--
   Created by IntelliJ IDEA.
   User: liu'teng
   Date: 2022/4/20

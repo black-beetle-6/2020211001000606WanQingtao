@@ -9,7 +9,6 @@ public class User {
     private String email;
     private String gender;
     private Date birthdate;
-
     public User(){
     }
 
