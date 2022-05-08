@@ -35,9 +35,15 @@ public class FrontEndAuthenticationFilter implements Filter {
         boolean isLoginPage = httpRequest.getRequestURI().endsWith("login");
 
         if (isLoggedIn && (isLoginRequest || isLoginPage)){
+            //the admin is already login ande he is trying login again
+            //then forward to the public user homepage
+            //update 2 ServletRequest and ServletResponse
             httpRequest.getRequestDispatcher("/").forward(request,response);//go to home -public user
             //update 3 i miss !-not
         }else if (!isLoggedIn && isLoginRequired()){//check in loginRequiredURLs array
+            //if your is not login in and the requested page requires login
+            //then forward to the login page
+            //update- 4- use
             request.getRequestDispatcher("/login").forward(request,response);
         }else {
             //for other page which not requires login

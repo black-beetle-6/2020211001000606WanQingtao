@@ -30,6 +30,8 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // doPost(request,response);//call dopost
+        //when user click Login from menu- method is get
         request.getRequestDispatcher("WEB-INF/views/login.jsp").forward(request,response);
     }
     @Override
@@ -44,6 +46,9 @@ public class LoginServlet extends HttpServlet {
         try {
             User user=userDao.findByUsernamePassword(con,username,password);
             if(user!=null){
+                //将数据保存在session中
+//                request.setAttribute("user",user);
+                //add code for rememberMe
                 String rememberMe=request.getParameter("rememberMe");
                 if (rememberMe!=null&&rememberMe.equals("1")){
                     // want to rememberMe
@@ -70,6 +75,8 @@ public class LoginServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+
 
     }
 }

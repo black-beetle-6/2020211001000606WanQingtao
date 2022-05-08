@@ -3,6 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <!-- tomcat read this file to run servlet -->
+    <!-- you need to tell tomcat we have created a new servlet -->
     <context-param>
         <param-name>driver</param-name>
         <param-value>com.mysql.cj.jdbc.Driver</param-value>
@@ -19,6 +21,8 @@
         <param-name>password</param-name>
         <param-value>8888</param-value>
     </context-param>
+
+
 
 
     <welcome-file-list>
