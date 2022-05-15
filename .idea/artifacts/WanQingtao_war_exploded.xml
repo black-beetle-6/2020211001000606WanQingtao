@@ -8,7 +8,6 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="lib" />
-          <element id="library" level="project" name="lib (2)" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="WanQingtao/web/Web" />
