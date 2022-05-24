@@ -1,4 +1,4 @@
-<%@ page import="com.WanQingtao.week10.StringBean" %><%--
+<%@ page import="com.WanQIngtao.week10.StringBean" %><%--
   Created by IntelliJ IDEA.
   User: liu'teng
   Date: 2022/4/25
@@ -13,10 +13,10 @@
 </head>
 <body>
     <h1>use java code to access String bean calss</h1>
-    <jsp:useBean id="bean" class="com.WanQingtao.week10.StringBean" />
+    <jsp:useBean id="bean" class="com.WanQIngtao.week10.StringBean" />
     <jsp:setProperty name="bean" property="message" value='<%= request.getParameter("message")%>' />
     <%
-//        com.WanQingtaotao.week10.StringBean bean=new StringBean();//CHANGE with useBean -step -6
+//        com.WanQIngtaotao.week10.StringBean bean=new StringBean();//CHANGE with useBean -step -6
         //Step-4
 //        bean.setMessage("Hello Mr bean -from java code");//change with setProperty
 

@@ -1,4 +1,4 @@
-package com.WanQingtao.week11;
+package com.WanQIngtao.week11;
 
 public class Person {
     private String name;

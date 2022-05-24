@@ -1,7 +1,7 @@
-package com.WanQingtao.dao;
+package com.WanQIngtao.dao;
 
 
-import com.WanQingtao.model.Product;
+import com.WanQIngtao.model.Product;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -17,7 +17,12 @@ public class ProductDao implements  IProductDao{
         pt.setString(2, product.getProductDescription());
         if(product.getPicture()!=null) {
             //for sql server
-            pt.setBinaryStream(3, product.getPicture());
+
+            try {
+                pt.setBinaryStream(3, product.getPicture());
+            }catch (Exception e){
+                e.printStackTrace();
+            }
             //for mysql
             //   pt.setBlob(3, product.getPicture());
         }

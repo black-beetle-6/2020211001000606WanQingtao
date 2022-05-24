@@ -1,7 +1,7 @@
-package com.WanQingtao.dao;
+package com.WanQIngtao.dao;
 
 
-import com.WanQingtao.model.Product;
+import com.WanQIngtao.model.Product;
 
 import java.sql.Connection;
 import java.sql.SQLException;

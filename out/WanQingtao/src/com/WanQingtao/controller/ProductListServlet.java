@@ -1,7 +1,7 @@
-package com.WanQingtao.controller;
+package com.WanQIngtao.controller;
 
-import com.WanQingtao.dao.ProductDao;
-import com.WanQingtao.model.Product;
+import com.WanQIngtao.dao.ProductDao;
+import com.WanQIngtao.model.Product;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

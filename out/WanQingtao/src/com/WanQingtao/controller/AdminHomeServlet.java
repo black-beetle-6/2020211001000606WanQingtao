@@ -1,6 +1,6 @@
-package com.WanQingtao.controller;
+package com.WanQIngtao.controller;
 
-import com.WanQingtao.model.User;
+import com.WanQIngtao.model.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

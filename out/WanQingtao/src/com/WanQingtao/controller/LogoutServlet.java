@@ -1,4 +1,4 @@
-package com.WanQingtao.controller;
+package com.WanQIngtao.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

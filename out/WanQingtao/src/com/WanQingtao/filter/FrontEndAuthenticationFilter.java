@@ -1,4 +1,4 @@
-package com.WanQingtao.filter;
+package com.WanQIngtao.filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

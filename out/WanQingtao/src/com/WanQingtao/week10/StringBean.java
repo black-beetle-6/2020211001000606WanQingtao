@@ -1,4 +1,4 @@
-package com.WanQingtao.week10;
+package com.WanQIngtao.week10;
 
 public class StringBean {
     //property-variable

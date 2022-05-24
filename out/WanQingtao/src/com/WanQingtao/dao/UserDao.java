@@ -1,6 +1,6 @@
-package com.WanQingtao.dao;
+package com.WanQIngtao.dao;
 
-import com.WanQingtao.model.User;
+import com.WanQIngtao.model.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

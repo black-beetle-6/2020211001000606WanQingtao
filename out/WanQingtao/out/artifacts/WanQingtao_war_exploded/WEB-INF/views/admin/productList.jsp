@@ -1,6 +1,6 @@
-<%@ page import="com.WanQingtao.model.Product" %>
+<%@ page import="com.WanQIngtao.model.Product" %>
 <%@ page import="java.sql.Connection" %>
-<%@ page import="com.WanQingtao.model.Category" %>
+<%@ page import="com.WanQIngtao.model.Category" %>
 <%@include file="../header.jsp" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>

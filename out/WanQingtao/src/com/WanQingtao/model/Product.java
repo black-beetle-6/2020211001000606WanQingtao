@@ -1,4 +1,4 @@
-package com.WanQingtao.model;
+package com.WanQIngtao.model;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

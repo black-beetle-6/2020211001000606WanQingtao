@@ -1,5 +1,5 @@
-<%@ page import="com.WanQingtao.week11.Person" %>
-<%@ page import="com.WanQingtao.week11.Dog" %>
+<%@ page import="com.WanQIngtao.week11.Person" %>
+<%@ page import="com.WanQIngtao.week11.Dog" %>
 <%@ page import="java.util.ArrayList" %><%--
   Created by IntelliJ IDEA.
   User: liu'teng
