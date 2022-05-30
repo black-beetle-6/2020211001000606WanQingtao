@@ -11,7 +11,7 @@
     </context-param>
     <context-param>
         <param-name>url</param-name>
-        <param-value>jdbc:mysql://114.132.201.198:3306/jsp?serverTimezone=UTC</param-value>
+        <param-value>jdbc:mysql://localhost:3306/jsp?serverTimezone=UTC</param-value>
     </context-param>
     <context-param>
         <param-name>username</param-name>
@@ -19,9 +19,17 @@
     </context-param>
     <context-param>
         <param-name>password</param-name>
-        <param-value>lt204330</param-value>
+        <param-value>8888</param-value>
     </context-param>
 
+    <filter>
+        <filter-name>WanQingtaoFilter</filter-name>
+        <filter-class>com.lab2.WanQingtaoFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>WanQingtaoFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+    </filter-mapping>
 
 <!--    <servlet>-->
 <!--        <servlet-name>giveanyname</servlet-name>-->
